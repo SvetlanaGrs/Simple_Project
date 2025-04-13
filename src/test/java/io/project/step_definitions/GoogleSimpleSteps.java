@@ -1,4 +1,4 @@
-package io.loop.step_definitions;
+package io.project.step_definitions;
 
 import io.cucumber.java.en.Given;
 

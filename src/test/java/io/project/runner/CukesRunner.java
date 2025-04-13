@@ -1,4 +1,4 @@
-package io.loop.runner;
+package io.project.runner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -11,10 +11,10 @@ import org.junit.runner.RunWith;
                 "json:target/json-reports/json-report.json",
                 "rerun:target/rerun.txt",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-        features = "C:/Users/advok/IdeaProjects/cucumber-project-b4/src/test/resources/features",
-        glue ="io/loop/step_definitions",
+        features = "src/test/resources/features",
+        glue = "io.project.step_definitions",
         dryRun = false,
-        tags="@soft",
+        tags="@smoke",
         monochrome=true,
         publish = false
 )

@@ -1,8 +1,8 @@
-package io.loop.step_definitions;
+package io.project.step_definitions;
 
 import io.cucumber.java.*;
-import io.loop.utilities.BrowserUtils;
-import io.loop.utilities.Driver;
+import io.project.utilities.BrowserUtils;
+import io.project.utilities.Driver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;

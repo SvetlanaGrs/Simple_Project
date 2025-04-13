@@ -1,6 +1,6 @@
-package io.loop.pages;
+package io.project.pages;
 
-import io.loop.utilities.Driver;
+import io.project.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

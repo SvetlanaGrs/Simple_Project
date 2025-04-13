@@ -1,21 +1,19 @@
-package io.loop.step_definitions;
+package io.project.step_definitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.loop.pages.GoogleSearchPage;
-import io.loop.pages.POM;
-import io.loop.utilities.BrowserUtils;
-import io.loop.utilities.ConfigurationReader;
-import io.loop.utilities.Driver;
+import io.project.pages.GoogleSearchPage;
+import io.project.pages.POM;
+import io.project.utilities.BrowserUtils;
+import io.project.utilities.ConfigurationReader;
+import io.project.utilities.Driver;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.security.Key;
 import java.time.Duration;
 import java.util.List;
-import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 
@@ -68,7 +66,7 @@ public class GoogleSearchSteps {
     public void user_should_see_in_the_google_title(String expectedTitle) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(),Duration.ofSeconds(Integer.valueOf(ConfigurationReader.getProperties("timeouts"))));
         wait.until(ExpectedConditions.titleIs(expectedTitle));
-        //Thread.sleep(3000)
+       // Thread.sleep(3000);
         String actualTitle = Driver.getDriver().getTitle();
         assertEquals("Expected result does not match the actual", expectedTitle, actualTitle);
     }

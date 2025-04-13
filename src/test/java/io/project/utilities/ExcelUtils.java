@@ -1,7 +1,5 @@
-package io.loop.utilities;
+package io.project.utilities;
 
-import io.cucumber.java.sl.Ce;
-import io.loop.pages.ReceivedDocsPage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.*;

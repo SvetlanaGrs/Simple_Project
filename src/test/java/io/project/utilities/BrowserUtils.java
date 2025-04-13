@@ -1,4 +1,4 @@
-package io.loop.utilities;
+package io.project.utilities;
 
 import io.cucumber.java.Scenario;
 import org.apache.logging.log4j.LogManager;
@@ -16,7 +16,6 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.security.Key;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
